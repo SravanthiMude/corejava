@@ -1,0 +1,199 @@
+1./*Write a java program to print Welcome java*/
+
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        System.out.print("Welcome to java");
+    }
+}
+
+
+2./*Write a java program to print Multiple statements*/
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        System.out.print("Welcome to java");
+	System.out.print("Java is an easy language");
+    }
+}
+
+
+3./*Write a java program to print Multiple statements in new line*/
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        System.out.print("Welcome to java");
+	System.out.print("Java is an easy language");
+    }
+}
+
+4./*Write a java program to print Multiple statements in new line and tab */
+
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        System.out.print("Welcome to java");
+	System.out.print("\tJava is an easy language");
+    }
+}
+
+5./*Write a jave program to print a value using variable*/
+
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        int a=5;
+        System.out.print("Value of A is "+a);
+    }
+}
+
+6./*Write a jave program to print multible values using variables*/
+
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        int a=5,b=3;
+        System.out.println("Value of A is "+a);
+        System.out.println("Value of B is "+b);
+    }
+}
+
+7./*Write a jave program to print multible values using variables in single line*/
+
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        int a=5,b=3;
+        System.out.println("Value of A is "+a+"\t"+"B is "+b);
+    }
+}
+
+8./*Write a java program to swap two numbers using additional variable*//
+
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        int a=5,b=3,c;
+        System.out.println("Value Before Swap A="+a+"\t"+"B="+b);
+        c=a;
+        a=b;
+        b=c;
+        System.out.println("Value After Swap A="+a+"\t"+"B="+b);
+    }
+}
+
+9./*Write a java program to swap two numbers using Arthimetic Operator*//
+
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        int a=5,b=3;
+        System.out.println("Value Before Swap A="+a+"\t"+"B="+b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println("Value After Swap A="+a+"\t"+"B="+b);
+    }
+}
+
+10./*Write a java program to swap two numbers using Arthimetic Operator*//
+
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        int a=5,b=3;
+        System.out.println("Value Before Swap A="+a+"\t"+"B="+b);
+        a=a*b;
+        b=a/b;
+        a=a/b;
+        System.out.println("Value After Swap A="+a+"\t"+"B="+b);
+    }
+}
+
+
+11./*Write a java program to swap two numbers using Bitwise Operator*//
+
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        int a=5,b=3;
+        System.out.println("Value Before Swap A="+a+"\t"+"B="+b);
+        a=a^b;
+        b=a^b;
+        a=a^b;
+        System.out.println("Value After Swap A="+a+"\t"+"B="+b);
+    }
+}
+
+12./* Write a jave program to print book details*/
+
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        String bcode="B101";
+        int bno=101;
+        String bname="Ram";
+        float bprice=456.75f;
+        char bpcode='u';
+        boolean bav=true;
+        System.out.println("-------------------------------------------------");
+        System.out.println("\t Book Details");
+        System.out.println("-------------------------------------------------");
+        System.out.println("Book Code="+bcode);
+        System.out.println("Book Number="+bno);
+        System.out.println("Book Name="+bname);
+        System.out.println("Book Price="+bprice);
+        System.out.println("Book Print Code="+bpcode);
+        System.out.println("Book Availability="+bav);
+        System.out.println("-------------------------------------------------");
+    }
+}
+
+13./* Write a jave program to print Employee details*/
+import java.lang.*;
+class Main
+    {
+        public static void main(String args[])
+        {
+        String ecode="E101";
+        int eno=101;
+        String ename="Ram";
+        double esal=456123.75;
+        float epf=5231.45f;
+        char egrade='A';
+        System.out.println("-------------------------------------------------");
+        System.out.println("\t Employee Details");
+        System.out.println("-------------------------------------------------");
+        System.out.println("Employee Code="+ecode);
+        System.out.println("Employee Number="+eno);
+        System.out.println("Employee Name="+ename);
+        System.out.println("Employee Salary"+esal);
+        System.out.println("Provident Fund="+epf);
+        System.out.println("Employee Grade="+egrade);
+        System.out.println("-------------------------------------------------");
+    }
+}
